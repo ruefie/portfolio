@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="theme-toggle">
+      <label class="theme-switch-label">
+        <span class="sun">☀️</span>
+        <span class="moon">🌙</span>
+      </label>
+    </div>
+
+    <!-- Navbar -->
+    <nav>
+      <div class="left">
+        <a href="/">Ruchie Roell</a>
+      </div>
+      <div class="right">
+        <a
+          href="https://github.com/ruefie"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="Btn">
+            <span class="svgContainer">
+              <i class="fa-brands fa-github"></i>
+            </span>
+            <span class="BG"></span>
+          </button>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/ruchieroell"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="Btn">
+            <span class="svgContainer">
+              <i class="fa-brands fa-linkedin"></i>
+            </span>
+            <span class="BG"></span>
+          </button>
+        </a>
+
+        <a
+          href="mailto:dj_ruchie@yahoo.com.ph"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="Btn">
+            <span class="svgContainer">
+              <i class="fa-solid fa-envelope"></i>
+            </span>
+            <span class="BG"></span>
+          </button>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <!-- Section 1: Hero -->
+      <section class="hero-section">
+        <div class="text">
+          <h2 class="intro-heading">Hi, I'm Ruchie</h2>
+          <p class="intro-paragraph">
+            I'm a licensed Electronics and Communications Engineer with a
+            passion for solving complex problems and creating innovative
+            solutions. With extensive experience in the Manufacturing Industry,
+            I've honed my skills in Quality Control, Engineering, Production,
+            Research and Development, and Logistics and Planning. My career has
+            been driven by a commitment to precision and efficiency, and now I'm
+            channeling that same dedication into my journey as a budding
+            Software Developer.
+
+            <br /><br />
+
+            Beyond the technical world, I find joy in creativity and hands-on
+            activities. Whether I’m experimenting with new recipes in the
+            kitchen, perfecting my baking skills, or nurturing my garden, I love
+            the process of creating and refining, much like coding. These
+            hobbies not only provide a great balance to my professional life but
+            also fuel my problem-solving mindset and attention to detail.
+          </p>
+
+          <div class="links">
+            <a href="#skills" class="Btn skills-btn">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+            <a href="#testimony" class="Btn testimony-btn">
+              <i class="fa-solid fa-pen"></i>
+              <span>Testimony</span>
+            </a>
+            <a href="#contact" class="Btn contact-btn">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </div>
+        </div>
+        <div class="headshot">
+          <img src="./images/profilephoto.jpg" alt="profilephoto" />
+        </div>
+      </section>
+      <!-- Section 2: Skills -->
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+          With a solid foundation in web development, I specialize in creating
+          responsive and dynamic user interfaces, building efficient server-side
+          applications, and leveraging modern JavaScript frameworks. Below are
+          some of the key technologies I work with:
+        </div>
+        <div class="cells">
+          <div class="cell">
+            <img src="./images/html-5-svgrepo-com.svg" alt="html" />
+            <span>HTML</span>
+          </div>
+          <div class="cell">
+            <img src="./images/css-3-svgrepo-com.svg" alt="css" />
+            <span>CSS</span>
+          </div>
+          <div class="cell">
+            <img src="./images/javascript-svgrepo-com.svg" alt="Javascript" />
+            <span>JavaScript</span>
+          </div>
+          <div class="cell">
+            <img src="./images/node-js-seeklogo.svg" alt="node" />
+            <span>Node.js</span>
+          </div>
+          <div class="cell">
+            <img src="./images/react-svgrepo-com (1).svg" alt="react" />
+            <span>React.js</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Testimonials -->
+      <section id="testimony" class="testimony-section">
+        <h2>Testimonials</h2>
+        <div class="testimony-group">
+          <div class="testimonial">
+            <div class="person-details">
+              <img src="./images/lady9.webp" alt="Jane Doe" />
+              <p>Jane Doe</p>
+              <p>Senior Software Engineer</p>
+            </div>
+            <div class="text">
+              "Ruchie's dedication to excellence is evident in everything she
+              does. Her ability to combine her deep technical knowledge with a
+              strong work ethic makes her an invaluable asset to any team. She’s
+              not only a skilled engineer but also a reliable and proactive team
+              player."
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <div class="person-details">
+              <img
+                src="./images/pexels-jeffreyreed-769746.jpg"
+                alt="John Smith"
+              />
+              <p>John Smith</p>
+              <p>Project Manager</p>
+            </div>
+            <div class="text">
+              "Working with Ruchie has been a fantastic experience. Her
+              problem-solving skills and attention to detail helped us deliver
+              projects on time and within budget. She brings creativity and
+              innovation to the table, making her a valuable team member."
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <div class="person-details">
+              <img src="./images/lady4.webp" alt="Emily Johnson" />
+              <p>Emily Johnson</p>
+              <p>Lead Developer</p>
+            </div>
+            <div class="text">
+              "Ruchie is an exceptional professional who always goes the extra
+              mile. Her expertise in engineering and software development,
+              combined with her positive attitude, make her a pleasure to work
+              with. She consistently delivers high-quality results."
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4: Contact -->
+      <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="group">
+          <div class="text">
+            <p>
+              Whether you have a question, a project in mind, or just want to
+              connect, feel free to reach out! I'm always open to discussing new
+              opportunities or collaborations. Fill out the form, and I'll get
+              back to you as soon as possible.
+            </p>
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <span>dj_ruchie@yahoo.com.ph</span>
+              </div>
+              <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                <span>+49 174 8210818</span>
+              </div>
+              <div class="contact-item">
+                <i class="fa-solid fa-map-marker-alt"></i>
+                <span>Augsburg, Germany</span>
+              </div>
+            </div>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d169083.7054656322!2d10.697144241065288!3d48.358505696884585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ea2c53a212b29%3A0x41e48add78be7a0!2sAugsburg!5e0!3m2!1sen!2sde!4v1726224961842!5m2!1sen!2sde"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" />
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email" />
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              placeholder="Your Message"
+              cols="30"
+              rows="10"
+            ></textarea>
+
+            <button>
+              <div class="svg-wrapper-1">
+                <div class="svg-wrapper">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      fill="currentColor"
+                      d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <span>Send</span>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h3>About Me</h3>
+          <p>
+            I'm Ruchie Roell, a licensed Electronics and Communications Engineer
+            and a budding Software Developer. I specialize in combining
+            technical expertise with creativity to solve complex problems. Let's
+            connect and build something amazing together!
+          </p>
+        </div>
+
+        <div class="footer-section contact">
+          <h3>Contact</h3>
+          <p><i class="fa-solid fa-envelope"></i> dj_ruchie@yahoo.com.ph</p>
+          <p><i class="fa-solid fa-phone"></i> +49 174 8210818</p>
+          <p><i class="fa-solid fa-map-marker-alt"></i> Augsburg, Germany</p>
+        </div>
+
+        <div class="footer-section social">
+          <h3>Follow Me</h3>
+          <div class="social-links">
+            <a
+              href="https://github.com/ruchieroell"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ruchieroell"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2024 Ruchie Roell | All Rights Reserved
+      </div>
+    </footer>
+  </body>
+</html>
